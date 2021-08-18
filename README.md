@@ -124,10 +124,10 @@ We'll now walk through what each of these steps entails.
   > 1. right-click on the link to the zip file and copy the link to your
   >    clipboard
   > 2. In the Ubuntu Terminal type the following:
-  >    `curl -O practice-for-week-01-intro-to-node-js-main.zip ` and then paste
+  >    `curl -o practice-for-week-01-intro-to-node-js-main.zip ` and then paste
   >    in the link you copied and press Enter. This will download the zip file
   >    into your current directory. It should look something like this:
-  >    `curl -O practice-for-week-01-intro-to-node-js-main.zip https://github.com/appacademy/practice-for-week-01-intro-to-node-js/archive/refs/heads/main.zip`
+  >    `curl -o practice-for-week-01-intro-to-node-js-main.zip https://codeload.github.com/appacademy/practice-for-week-01-intro-to-node-js/zip/refs/heads/main`
   > 3. Use `unzip` to unzip the file like this:
   >    `unzip practice-for-week-01-intro-to-node-js-main.zip`
   >
