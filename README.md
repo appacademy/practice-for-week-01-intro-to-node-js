@@ -2,11 +2,11 @@
 
 Now it's time to become a leet Hacker and put your newfound Terminal skills to
 the test! In the past, you have been writing JavaScript within the confines of
-the App Academy Online platform but it's time to break free and start writing
-code on your local computer.
+the App Academy Online platform, but now it's time to break free and start
+writing code on your local computer.
 
-In this practice, we'll be working VS Code to create new folders and files, Node
-to run JavaScript, and `mocha` to help us run tests.
+In this practice, we'll be working with VS Code to create new folders and files,
+Node to run JavaScript, and `mocha` to help us run tests.
 
 ## Phase 1: Creating files and folders
 
@@ -21,6 +21,13 @@ __first-project__.
 The first thing you'll want to do with this __first-project__ folder is open it
 up in VS Code. Once you've entered VS Code you can go to "File" then "New File"
 to create a new file. Name this file __phase-one.js__.
+
+At the top of the __phase-one.js__ file, add the following line of code, and
+then save the file.
+
+```js
+console.log("Look at me go!")
+```
 
 Now create a second file, name it __phase-two.js__ and let's go run some
 JavaScript.
@@ -121,7 +128,7 @@ We'll now walk through what each of these steps entails.
   > _Note:_ If you use Windows you might find it easier to use `curl` to
   > download the zip file into your WSL. Here's how to do that:
   >
-  > 1. right-click on the link to the zip file and copy the link to your
+  > 1. Right-click on the link to the zip file and copy the link to your
   >    clipboard
   > 2. In the Ubuntu Terminal type the following:
   >    `curl -o practice-for-week-01-intro-to-node-js-main.zip ` and then paste
